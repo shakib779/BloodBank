@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#a0a0dc"
+    tools:context="com.example.shakib.bloodbank.ProfileActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextName"
+            android:hint="Enter Your Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextBloodGroup"
+            android:hint="Enter Blood Group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextDistrict"
+            android:hint="Enter Your District"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextUpazilla"
+            android:hint="Enter Your Upazilla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextMobile"
+            android:hint="Enter Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Age"
+            android:ems="10"
+            android:inputType="number" />
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextWeight"
+            android:hint="Enter your weight (in KG)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+
+            android:text="Enter your height"
+            android:textSize="18dp"
+            android:id="@+id/textViewHeight"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextHeightFeet"
+            android:layout_width="100dp"
+            android:hint="Feet"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="'"
+                android:id="@+id/textVieFeet"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_margin="15dp"
+            android:id="@+id/editTextHeightInch"
+            android:layout_width="100dp"
+            android:hint="Inch"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="''"
+                android:id="@+id/textViewInch"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Save"
+            android:background="#00a0dc"
+            android:id="@+id/buttonSave"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Back"
+            android:id="@+id/buttonBack"
+            android:background="#00a0dc"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

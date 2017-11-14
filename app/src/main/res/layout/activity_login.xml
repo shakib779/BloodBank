@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context="com.example.shakib.bloodbank.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Bank"
+                android:textSize="30dp"
+                android:textColor="#bbdefb"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_margin="15dp"
+            android:hint="Enter your Email"
+            android:inputType="textEmailAddress"
+            android:layout_width="250dp"
+            android:layout_gravity="center_horizontal"
+            android:textColorHint="#bbbbbb"
+            android:layout_height="40dp"
+            android:layout_above="@+id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="35dp"
+            android:background="#11000000"
+            android:textColor="#ffffff"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="10"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_margin="15dp"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:textColorHint="#bbbbbb"
+            android:hint="Enter your Password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="130dp"
+            android:background="#11000000"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/buttonSignin"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="#00a0dc"
+            android:text="Log in" />
+
+        <TextView
+            android:id="@+id/textViewSignup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Not have an account?Sign up here"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

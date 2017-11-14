@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="notification">Incorrect email or password</string>
+    <string name="note">Incorrect Email or Password</string>
+</resources>

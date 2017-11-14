@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#a0a0dc"
+    android:orientation="vertical"
+    tools:context="com.example.shakib.bloodbank.UserlistActivity">
+
+        <TextView
+            android:id="@+id/tvShow"
+            android:textSize="30sp"
+            android:text="Available user list"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#11111a"
+            android:dividerHeight="2sp"
+            android:listSelector="#0000ff"></ListView>
+
+</LinearLayout>

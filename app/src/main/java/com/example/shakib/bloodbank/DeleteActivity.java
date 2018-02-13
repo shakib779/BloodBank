@@ -24,7 +24,7 @@ public class DeleteActivity extends AppCompatActivity implements View.OnClickLis
     private Button buttonYes, buttonNo;
     private FirebaseAuth firebaseAuth;
     DatabaseReference databaseReference;
-    DialogInterface dialog;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
